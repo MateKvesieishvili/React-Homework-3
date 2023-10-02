@@ -42,6 +42,7 @@ const User = ({ name }) => {
 function App() {
   const [users, setUsers] = useState(initialUsers)
 
+  //ამ ფუნქციაზე Ai დავიხმარე, ცოტათი გამიჭირდა
   const removeRandomUser = () => {
     document.title = users.length - 1 + " Users Left"
 
